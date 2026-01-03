@@ -80,6 +80,12 @@
             border-bottom: 1px solid rgba(255, 255, 255, 0.1);
         }
         
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        
         .logo {
             font-size: 24px;
             font-weight: 700;
@@ -88,6 +94,14 @@
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+        }
+        
+        .logo-subline {
+            font-size: 11px;
+            color: rgba(255, 255, 255, 0.5);
+            letter-spacing: 1.5px;
+            margin-top: 2px;
+            font-weight: 400;
         }
         
         .nav-links {
@@ -555,7 +569,10 @@
     </div>
     
     <nav>
-        <div class="logo">ARITHSOFT</div>
+        <div class="logo-container">
+            <div class="logo">ARITHSOFT</div>
+            <div class="logo-subline">A CALIFORNIA CORPORATION</div>
+        </div>
         <div class="nav-links">
             <a href="#solutions">Solutions</a>
             <a href="#expertise">Expertise</a>
@@ -728,6 +745,7 @@
         <div class="footer-content">
             <div class="footer-section">
                 <h3>ARITHSOFT</h3>
+                <p style="font-size: 12px; margin-bottom: 10px; color: rgba(255, 255, 255, 0.4);">A California Corporation</p>
                 <p>Leading the enterprise AI revolution with cutting-edge database solutions and intelligent automation.</p>
             </div>
             <div class="footer-section">
